@@ -4,7 +4,7 @@ import image from '../../images/ProfileMain.png'
 function Card() {
     return (
         <div>
-            <img src={image}/>
+            <img src={image} alt="Adrian Sedano"/>
         </div>
     )
 }
