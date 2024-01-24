@@ -3,7 +3,7 @@ import image from '../../images/ProfileMain.png'
 
 function Card() {
     return (
-        <div className="main-card">
+        <div>
             <img src={image}/>
         </div>
     )
