@@ -7,7 +7,13 @@ img {
 .home {
     display: grid;
     height: 100%;
+    background-image: url('../../images/WebBackground.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
 }
+
+
 
 .first {
     display: grid;
@@ -50,4 +56,5 @@ img {
     font-size: 3rem;
     border: none;
     filter: drop-shadow(3px 5px 2px hsla(0, 0%, 0%, 0.7));
+    z-index: 1;
 }

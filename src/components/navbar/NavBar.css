@@ -17,6 +17,7 @@
     padding: 0 1rem;
     height: 4rem;
     font-family: 'Titillium Web', sans-serif;
+    z-index: 10;
 }
 
 .navbar ul{
@@ -66,6 +67,7 @@
         background-color: #3d3917;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 10;
     }
 
     nav ul {
