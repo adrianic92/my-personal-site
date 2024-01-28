@@ -4,17 +4,17 @@ import { FaInstagram, FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa';
 function Socials() {
   return (
     <div className='socials'>
-        <a className="social-button" href='https://www.instagram.com/adrianic92/'>
-            <FaInstagram />
+        <a className="social-link" href='https://www.instagram.com/adrianic92/'>
+            <FaInstagram className='react-icons' />
         </a>
-        <a className="social-button" href='https://www.linkedin.com/in/adrian-sedano'>
-            <FaLinkedin />    
+        <a className="social-link" href='https://www.linkedin.com/in/adrian-sedano'>
+            <FaLinkedin className='react-icons' />    
         </a>
-        <a className="social-button" href='https://www.facebook.com/adrian.sedanocastro/'>
-            <FaFacebook />
+        <a className="social-link" href='https://www.facebook.com/adrian.sedanocastro/'>
+            <FaFacebook className='react-icons' />
         </a>
-        <a className="social-button" href='https://github.com/adrianic92'>
-            <FaGithub />
+        <a className="social-link" href='https://github.com/adrianic92'>
+            <FaGithub className='react-icons' />
         </a>
     </div>
   )
