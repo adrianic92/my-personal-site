@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-/* body {
-	background-size: cover;
-	background-attachment: fixed;
-	width: 100%;
-} */
+.about-me {
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(414px, 1fr));
+    justify-content: center;
+    align-content: center;
+}
+
+.about-container {
+    border: hsl(54, 45%, 36%);
+    border-style: solid;
+    padding: 2rem;
+    background-color: hsl(54, 45%, 56%);
+    border-radius: 3rem;
+    box-shadow: .5rem .5rem .5rem rgb(0, 0, 0, .7);
+}
+
+.about-image {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 4rem;
+}
+
+.about-image > img {
+    filter: drop-shadow(.5rem .5rem .5rem rgb(0, 0, 0, .7));
+}
 
 .title {
     font-family: 'Titillium Web', sans-serif;

@@ -7,9 +7,6 @@ img {
 .home {
     display: grid;
     height: 100%;
-    background-image: url('../../images/WebBackground.png');
-    background-size: cover;
-    background-attachment: fixed;
     width: 100%;
 }
 
@@ -47,6 +44,7 @@ img {
     display: grid;
     justify-content: center;
     align-content: center;
+    padding-bottom: 3rem;
 }
 
 .social-link {
@@ -57,4 +55,10 @@ img {
     border: none;
     filter: drop-shadow(3px 5px 2px hsla(0, 0%, 0%, 0.7));
     z-index: 1;
+}
+
+.social-link:hover {
+    filter: drop-shadow(3px 5px 2px hsla(52, 100%, 50%, 0.7));
+    color: rgb(0, 10, 203);
+    transition-duration: .5s;
 }
