@@ -10,6 +10,10 @@ img {
 }
 
 .home {
+    display: grid;
+}
+
+.first {
     padding: 4rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(414px, 1fr));
@@ -18,21 +22,38 @@ img {
     text-align: center;
 }
 
-.home > div {
+.first > div {
     display: grid;
     justify-content: center;
     align-content: center;
     padding: 4rem;
 }
 
-.home > div > h1 {
+.first > div > h1 {
     font-size: 4rem;
     font-family: 'Titillium Web', sans-serif;
     transition-duration: 1s;
     font-weight: 700;
 }
 
-.home > div > h2 {
+.first > div > h2 {
     font-size: 2.5rem;
     font-family: 'Titillium Web', sans-serif;
+    transition-duration: 1s;
+}
+
+.second {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-button {
+    padding: 0rem 1rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 3rem;
 }
