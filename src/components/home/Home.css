@@ -6,6 +6,7 @@ img {
 
 .home {
     display: grid;
+    height: 100%;
 }
 
 .first {

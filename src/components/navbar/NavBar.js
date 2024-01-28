@@ -7,6 +7,10 @@ function NavBar() {
 
     const [bar, setBar] = useState("")
 
+    function hider() {
+        setBar("")
+    }
+
     return (
         <div className="navbar">
             <div>
@@ -15,18 +19,18 @@ function NavBar() {
             <nav className={bar}>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={() => hider()}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About Me</Link>
+                        <Link to="/about" onClick={() => hider()}>About Me</Link>
                     </li>
                     <li>
-                        <Link to="/projects">Projects</Link>
+                        <Link to="/projects" onClick={() => hider()}>Projects</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact" onClick={() => hider()}>Contact</Link>
                     </li>
-                    <button className="nav-btn nav-close-btn" onClick={() => setBar("")}>
+                    <button className="nav-btn nav-close-btn" onClick={() => hider()}>
                         <FaTimes/>
                     </button>
                 </ul>
