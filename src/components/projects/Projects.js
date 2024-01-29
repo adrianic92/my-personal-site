@@ -10,7 +10,7 @@ function Projects() {
       <div className='container'>
         <div className='card-container'>
            <div>
-            <img src={image}/>
+            <img src={image} alt="Recipe Connect App"/>
           </div> 
           <div>
             <h2 className='project-title'>Recipe Connect App</h2>
@@ -24,7 +24,7 @@ function Projects() {
       <div className='container'>
         <div className='card-container'>
           <div>
-            <img src={image2}/>
+            <img src={image2} alt="Restaurant Reviewer App"/>
           </div>
           <div >
             <h2 className='project-title'>Restaurant Reviewer App</h2>
@@ -38,7 +38,7 @@ function Projects() {
       <div className='container'>
         <div className='card-container'>
           <div>
-            <img src={image3}/>
+            <img src={image3} alt="Restaurant App"/>
           </div>
           <div>
             <h2 className='project-title'>Restaurants App</h2>
