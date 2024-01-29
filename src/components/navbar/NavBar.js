@@ -27,9 +27,6 @@ function NavBar() {
                     <li>
                         <Link to="/projects" onClick={() => hider()}>Projects</Link>
                     </li>
-                    <li>
-                        <Link to="/contact" onClick={() => hider()}>Contact</Link>
-                    </li>
                     <button className="nav-btn nav-close-btn" onClick={() => hider()}>
                         <FaTimes/>
                     </button>
