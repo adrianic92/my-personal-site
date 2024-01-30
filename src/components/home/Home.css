@@ -24,7 +24,7 @@ img {
     display: grid;
     justify-content: center;
     align-content: center;
-    padding: 6rem 7rem;
+    padding: 3rem 10rem 0rem 10rem;
 }
 
 .first > div > h1 {
